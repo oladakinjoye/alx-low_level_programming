@@ -7,15 +7,13 @@
 char *create_buffer(char *file);
 void close_file(int file_d);
 
-/**
- * create_buffer – This function allocates a buffer of 1024.
- * @file: Name of the file buffer is storing char.
- *
- * Return: Pointer to the new allocated buffer.
- * Description: This function allocates a buffer of 1024 bytes and
- * returns a pointer to it
- */
 
+/**
+ * create_buffer - Allocate 1024 bytes for a buffer.
+ * @file: The name of the file associated with the buffer.
+ *
+ * Return: A pointer to the newly-allocated buffer.
+ */
 char *create_buffer(char *file)
 {
 	char *buf;
